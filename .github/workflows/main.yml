@@ -20,4 +20,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://csoh98:$HF@huggingface.co/spaces/ccsoh98/demo main
+        run: git push --force https://ccsoh98:$HF@huggingface.co/spaces/ccsoh98/demo main
